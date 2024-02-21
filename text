@@ -1,0 +1,34 @@
+Buổi4:GIt
+Các lệnh git
+git --version :xem phiên bản hiện tại có trên máy tính
+git init : khởi tạo kho lưu trữ dự án và chạy câu lệnh trong thư mục gốc của dự án
+git status: xem trạng thái những files đã thay đổi trong dự án
+git add ten_file hoặc git add .(ĐẨY hết các files đã sửa lên git) :chuyển các file đã thay đổi từ vùng đang code sang vùng các files code đã thêm vào và sắp xếp lại các files đã thêm vào
+git commit -m "nhap ghi chu": ghi lại trạng thái các files đã thay đổi
+
+git log : xem danh sách các commit
+git show commit_id : show chi tiết các files đã chỉnh sửa
+git diff: xem sự thay đổi của 1 files nào đó
+git branch : Xem danh sách các nhánh
+git checkout -b tên nhánh: Tạo 1 nhánh mới và chuyển sang nhánh đó
+git checkout tên nhánh : chuyển sang nhánh đó
+git merge tên nhánh: để merge nhánh khác vào trong nhánh hiện tại
+git branch -D tên nhánh:để xóa nhánh
+git pull :kéo code về máy
+Đẩy code lên github lần đầu tiên
+B1: git init
+B2: git add.
+B3: git commit -m
+B4 git branch -M main
+B5: git remote add orgin url_github_https
+B6: git push -u origin main
+Đẩy code lên github lần tiếp theo
+git add.
+git commit -m"nội dung"
+git push
+
+Đẩy code lên Vercel
+B1: Chọn ADD New
+B2: Chọn project
+B3: Chọn "Add Github Account "(nếu chưa có)
+B4: Bấm Deploy
